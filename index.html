@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGear - Best Tech Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span>TechGear</span>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate-pop-in">Discover Amazing Tech Products</h1>
+            <p class="animate-pop-in">Curated selection of the best gadgets and tech accessories</p>
+            <a href="#products" class="btn animate-pop-in">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="hero-image animate-slide-in">
+            <div class="product-card floating">
+                <img src="images/headphone.jpg" alt="Featured Product">
+                <div class="product-badge">🔥 Hot Deal</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro">
+        <div class="container">
+            <div class="section-header">
+                <h2>Welcome to TechGear</h2>
+                <div class="divider">✦✦✦</div>
+            </div>
+            <div class="intro-content">
+                <p>We're your trusted source for the latest and greatest tech products. Our team tests and reviews hundreds of products to bring you only the best options on the market.</p>
+                <div class="stats">
+                    <div class="stat-item spin-on-hover">
+                        <div class="stat-icon">📱</div>
+                        <h3>500+</h3>
+                        <p>Products Reviewed</p>
+                    </div>
+                    <div class="stat-item spin-on-hover">
+                        <div class="stat-icon">😊</div>
+                        <h3>10K+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat-item spin-on-hover">
+                        <div class="stat-icon">⭐</div>
+                        <h3>4.9/5</h3>
+                        <p>Average Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <div class="divider">✦✦✦</div>
+            </div>
+            <div class="categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="audio">Audio</button>
+                <button class="category-btn" data-category="smart-home">Smart Home</button>
+                <button class="category-btn" data-category="wearables">Wearables</button>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="audio">
+                    <div class="product-badge">Best Seller</div>
+                    <img src="images/headphone.jpg" alt="Wireless Earbuds">
+                    <h3>Oneplus Bullets Z2 Bluetooth Wireless in Ear Earphones with Mic</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(1,95,133 )</span>
+                    </div>
+                    <div class="price">&#8377;89.99 <span class="old-price">&#8377;129.99</span></div>
+                    <button class="btn buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                    <a href="#" class="details-link">View Details <i class="fas fa-chevron-right"></i></a>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="smart-home">
+                    <div class="product-badge">Best Seller</div>
+                    <img src="images/speker.jpg" alt="Smart Speaker">
+                    <h3>Amazon Echo Dot (5th Gen) | Smart speaker with Bigger sound, Motion Detection, Temperature Sensor, Alexa and Bluetooth</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(9,488)</span>
+                    </div>
+                    <div class="price">&#8377;59.99</div>
+                    <button class="btn buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                    <a href="#" class="details-link">View Details <i class="fas fa-chevron-right"></i></a>
+                </div>
+                 <!-- Product 3-->
+                 <div class="product-card" data-category="audio">
+                    <div class="product-badge">Best Seller</div>
+                    <img src="images/wireheadphone.webp" alt="Wireless Earbuds">
+                    <h3>Boat BassHeads 100 in-Ear Headphones with Mic (Black)</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(4,20,383 )</span>
+                    </div>
+                    <div class="price">&#8377;89.99 <span class="old-price">&#8377;129.99</span></div>
+                    <button class="btn buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                    <a href="#" class="details-link">View Details <i class="fas fa-chevron-right"></i></a>
+                </div>
+                  <!-- Product 4-->
+                 <div class="product-card" data-category="smart-home">
+                    <div class="product-badge">Best Seller</div>
+                    <img src="images/speker.jpg" alt="Smart Speaker">
+                    <h3>Amazon Echo Dot (5th Gen) | Smart speaker with Bigger sound, Motion Detection, Temperature Sensor, Alexa and Bluetooth</h3>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <span>(9,488)</span>
+                    </div>
+                    <div class="price">&#8377;59.99</div>
+                    <button class="btn buy-btn">Buy Now <i class="fas fa-shopping-cart"></i></button>
+                    <a href="#" class="details-link">View Details <i class="fas fa-chevron-right"></i></a>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+            <div class="deals-banner pulse">
+                <h3>🔥 Limited Time Offers - Up to 50% OFF!</h3>
+                <a href="#" class="btn">View All Deals</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About TechGear</h2>
+                <div class="divider">✦✦✦</div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Founded in 2020, TechGear started as a passion project by a group of tech enthusiasts. We were frustrated by the overwhelming number of tech products on the market and the difficulty in finding truly great ones.</p>
+                    <p>Our mission is simple: to help you discover the best tech products without the hassle. We test every product thoroughly and only recommend items we truly believe in.</p>
+                    <div class="trust-badges">
+                        <div class="badge shake-on-hover"><i class="fas fa-check-circle"></i> Verified Reviews</div>
+                        <div class="badge shake-on-hover"><i class="fas fa-shield-alt"></i> Secure Shopping</div>
+                        <div class="badge shake-on-hover"><i class="fas fa-headset"></i> 24/7 Support</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="floating-team-photo"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Reviews Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Latest Reviews & Guides</h2>
+                <div class="divider">✦✦✦</div>
+            </div>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image" style="background-image: url('images/blog1.jpg');"></div>
+                    <div class="blog-content">
+                        <span class="blog-category">Review</span>
+                        <h3>Top 5 Wireless Earbuds of 2023</h3>
+                        <p>We tested 25 different models to bring you the absolute best options at every price point.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-image" style="background-image: url('images/blog2.jpg');"></div>
+                    <div class="blog-content">
+                        <span class="blog-category">Guide</span>
+                        <h3>Building a Smart Home on a Budget</h3>
+                        <p>How to automate your home without breaking the bank - our top affordable picks.</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="divider">✦✦✦</div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>support@techgear.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Tech Street, Silicon Valley, CA</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Affiliate Disclosure -->
+    <section class="disclosure">
+        <div class="container">
+            <h3>Affiliate Disclosure</h3>
+            <p>TechGear is a participant in various affiliate marketing programs, which means we may earn commissions on purchases made through our links to retailer sites. This comes at no extra cost to you and helps support our work in providing quality reviews and recommendations.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TechGear</h4>
+                    <p>Your trusted source for the best tech products and honest reviews.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Audio</a></li>
+                        <li><a href="#">Smart Home</a></li>
+                        <li><a href="#">Wearables</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for the latest deals and reviews</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechGear. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
